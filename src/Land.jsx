@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import phone from "./assets/phone.png";
 import logo from "./assets/logo.png";
-import backgroundImage from "./assets/piv(2).jpg"; // Import the background image
+import backgroundImage from "./assets/piv.jpg"; // Import the background image
 import { IoMdDownload } from "react-icons/io";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
