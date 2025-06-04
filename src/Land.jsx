@@ -22,7 +22,7 @@ const Land = () => {
     AOS.init({ duration: 1000, once: true });
   }, []);
   return (
-    
+
   <div>
       {/* pic */}
       <div
@@ -127,7 +127,7 @@ const Land = () => {
             Download the Food2Go App Now!
           </p>
           <p className="w-[90%]  md:w-[70%] text-[#797979] font-medium  text-left md:text-center   leading-normal  sm:text-[20px] md:text-[40px]  ">
-            Order your favorite meal quickly and easily with our app—available
+try our Demo, Test Our Online Solutions Now and easily with our app—available
             on all devices!
           </p>
 
@@ -140,14 +140,17 @@ const Land = () => {
                 <span className="hidden lg:block"> Download for Android </span>
                 <span className="block lg:hidden"> Android </span>
               </p>
-              <IoMdDownload className="text-white text-2xl" />
-            </button>
+ <i>
+                        <FaGooglePlay className="w-6 h-6  text-white" />
+
+                    </i>            </button>
             <button className=" md:w-[200px]  lg:w-[400px] h-[56px]  border border-three rounded-full flex items-center justify-center gap-4 px-6 hover:brightness-110 transition">
               <p className="text-[#9E090F] text-lg font-medium">
                 <span className="hidden lg:block"> Download for iPhone </span>
                 <span className="block lg:hidden"> iPhone </span>
               </p>
-              <IoMdDownload className="text-[#9E090F] text-2xl" />
+                                    <IoLogoApple className="w-6 h-6 text-[#9E090F]" />
+
             </button>
           </div>
         </div>
@@ -169,9 +172,9 @@ const Land = () => {
                 Follow us on social media:
               </p>
               <div className="flex gap-4 my-4" data-aos="zoom-out-down">
-                <i className="bg-three p-4 rounded-full lg:rounded-3xl  transition-all duration-300 hover:opacity-90   ">
+                <a href="https://www.facebook.com/share/1VRJnZmyYP/" className="bg-three p-4 rounded-full transition-all duration-300 hover:opacity-90   ">
                   <FaFacebookF className=" h-8 md:h-12 w-8 lg:w-12 text-white  " />
-                </i>
+                </a>
                 <i className="bg-three p-4 rounded-full  transition-all duration-300 hover:opacity-90   ">
                   <FiInstagram className=" h-8 md:h-12 w-8 lg:w-12 text-white  " />
                 </i>
@@ -187,8 +190,7 @@ const Land = () => {
                 Powered by Food2Go
               </p>
               <p className="text-[20px] lg:text-[32px] text-[#9E090F] font-normal w-[80%]">
-                Best flavors, fastest delivery, an unforgettable experience!
-              </p>
+Full smart solution for all restaurants needs             </p>
             </div>
           </div>
           {/* div two */}
@@ -265,46 +267,46 @@ const Land = () => {
                 Connect us
               </p>
               <div className="flex flex-col gap-1">
-                <div className="flex gap-2 py-1  text-[12px] md:text-[16px] font-medium">
+                <div className="flex gap-2 py-1 text-[#848484] text-[12px] md:text-[16px] font-medium">
                   {" "}
-                  <i className="bg-three p-1 rounded-[5px]  w-[16px] h-[16px] md:w-6 md:h-6 ">
+                  <i className="bg-three p-1 rounded-[5px]  flex justify-center items-center w-[16px] h-[16px] md:w-6 md:h-6 ">
                     <IoCall className="text-white" />
                   </i>
                   <p className="">
                     <span>phone number:</span>
                   </p>
-                  123 456 7890{" "}
+                  +201200908090{" "}
                 </div>
                 <div className="flex gap-2 py-1 text-[#848484] text-[12px] md:text-[16px] font-medium">
                   {" "}
-                  <i className="bg-three p-1 rounded-[5px] w-[16px] h-[16px] md:w-6 md:h-6 ">
+                  <i className="bg-three p-1 rounded-[5px]  flex justify-center items-center w-[16px] h-[16px] md:w-6 md:h-6 ">
                     <FaWhatsapp className="text-white" />
                   </i>
                   <p className="">
                     <span>WhatsApp:</span>
                   </p>
-                  123 456 7890{" "}
+                  +201200908090{" "}
                 </div>
                 <div className="flex gap-2 py-1 text-[#848484] text-[12px] md:text-[16px] font-medium">
                   {" "}
-                  <i className="bg-three p-1 rounded-[5px] w-[16px] h-[16px] md:w-6 md:h-6 ">
+                  <i className="bg-three p-1 rounded-[5px]  flex justify-center items-center w-[16px] h-[16px] md:w-6 md:h-6 ">
                     <TfiEmail className="text-white" />
                   </i>
                   <p className="">
                     <span>Email: :</span>
                   </p>
-                  support@edumy.com{" "}
+                  Support@food2go.online{" "}
                 </div>
-                <div className="flex gap-2 py-1 text-[#848484] text-[12px] md:text-[16px] font-medium">
+                {/* <div className="flex gap-2 py-1 text-[#848484] text-[12px] md:text-[16px] font-medium">
                   {" "}
-                  <i className="bg-three p-1 rounded-[5px] w-[16px] h-[16px] md:w-6 md:h-6 ">
+                  <i className="bg-three p-1 rounded-[5px]  flex justify-center items-center w-[16px] h-[16px] md:w-6 md:h-6 ">
                     <CiLocationOn className="text-white" />
                   </i>
                   <p className="">
                     <span>address: </span>
                   </p>
                   329 Queensberry Street, North Melbourne VIC 3051, Australia.{" "}
-                </div>
+                </div> */}
               </div>
             </div>
             {/* right */}
