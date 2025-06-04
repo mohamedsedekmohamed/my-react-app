@@ -113,10 +113,10 @@ const Land = () => {
 
       {/* secend */}
 
-      <div>
+      <div className="flex justify-center flex-col" >
         <img
           src={phone}
-          className=" bg-cover text-center w-full h-fit"
+          className=" bg-cover text-center sm:w-full  h-100 md:h-125 lg:h-fit"
           data-aos="slide-up"
         />
         <div
