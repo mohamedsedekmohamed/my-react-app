@@ -15,12 +15,14 @@ import { IoLogoApple } from "react-icons/io5";
 import { FaGooglePlay } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
+    
 
 const Land = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
   return (
+    
   <div>
       {/* pic */}
       <div
