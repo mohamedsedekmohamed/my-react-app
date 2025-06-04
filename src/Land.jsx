@@ -23,7 +23,7 @@ const Land = () => {
   }, []);
   return (
 
-  <div>
+  <div className="w-full h-fit bg-white relative overflow-hidden">
       {/* pic */}
       <div
         data-aos="fade"
@@ -92,7 +92,7 @@ const Land = () => {
             Enjoy the most delicious dishes at Food2Go!
           </h4>
           <span className="w-[80%] md:w-[70%] text-[20px] md:text-3xl lg:text-[40px] leading-normal text-center md:text-left text-white mt-5 font-normal">
-        All-in-One Restaurant Management System Food2GO makes it easy to manage menus, orders, and payments—all in one place.
+         All-in-One Restaurant Management System Food2GO makes it easy to manage menus, orders, and payments—all in one place.
           </span>
         </div>
 
@@ -112,15 +112,15 @@ const Land = () => {
 
       {/* secend */}
 
-      <div className="flex justify-center flex-col" >
+      <div>
         <img
           src={phone}
-          className=" bg-cover text-center sm:w-full  h-100 md:h-125 lg:h-fit"
-          data-aos="slide-up"
+          className=" bg-cover text-center w-full h-fit"
+          data-aos="zoom-in"
         />
         <div
           className="flex justify-center my-5 flex-col items-center gap-3"
-          data-aos="fade-right"
+          data-aos="fade-down"
         >
           <p className="w-[90%]  md:w-[70%] text-[#9E090F] font-medium  text-left md:text-center   leading-normal  sm:text-[25px] md:text-[48px]  ">
             Download the Food2Go App Now!
@@ -132,7 +132,7 @@ try our Demo, Test Our Online Solutions Now and easily with our app—available
 
           <div
             className="flex w-full justify-center gap-6 mt-10 py-5 md:mt-15  flex-wrap"
-            data-aos="fade-left"
+            data-aos="fade-up"
           >
             <button className="md:w-[200px] lg:w-[400px] h-[56px] bg-three rounded-full flex items-center justify-center gap-4 px-6 hover:brightness-110 transition">
               <p className="text-white text-lg font-medium">
@@ -156,10 +156,9 @@ try our Demo, Test Our Online Solutions Now and easily with our app—available
       </div>
 
       {/* three */}
-      <div>
+      <div >
         <p
           className="text-3xl lg:text-[48px] font-medium text-[#9E090F] text-center my-10 hidden md:block"
-          data-aos="zoom-out-up"
         >
           Follow Us & ⚡ Powered by Food2Go
         </p>
@@ -170,7 +169,7 @@ try our Demo, Test Our Online Solutions Now and easily with our app—available
               <p className=" text-[24px] lg:text-[32px] text-[#9E090F] font-normal">
                 Follow us on social media:
               </p>
-              <div className="flex gap-4 my-4" data-aos="zoom-out-down">
+              <div className="flex gap-4 my-4" >
                 <a href="https://www.facebook.com/share/1VRJnZmyYP/" className="bg-three p-4 rounded-full transition-all duration-300 hover:opacity-90   ">
                   <FaFacebookF className=" h-8 md:h-12 w-8 lg:w-12 text-white  " />
                 </a>
@@ -199,7 +198,7 @@ Full smart solution for all restaurants needs             </p>
               <img
                 src={logo}
                 className="w-90 lg:w-100  h-90  lg:h-100"
-                data-aos="zoom-out-down"
+                data-aos="zoom-down"
               />
             </div>
             <p
@@ -213,7 +212,7 @@ Full smart solution for all restaurants needs             </p>
       </div>
       {/* footer */}
       <div>
-        <div className="px-5 py-2" data-aos="fade-down-left">
+        <div className="px-5 py-2" data-aos="fade">
           <div className="flex gap-3 items-center">
             <svg
               className="w-8 h-8 sm:w-10 sm:h-10 lg:w-14 lg:h-14"
@@ -349,6 +348,7 @@ Full smart solution for all restaurants needs             </p>
         {" "}
         ©2024 . All rights reserved
       </h3>
+      
     </div>
   );
 };
