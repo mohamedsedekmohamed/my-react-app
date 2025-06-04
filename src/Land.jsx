@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import phone from "./assets/phone.png";
-import { IoMdDownload } from "react-icons/io";
 import logo from "./assets/logo.png";
+import backgroundImage from "./assets/piv(2).jpg"; // Import the background image
+import { IoMdDownload } from "react-icons/io";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
@@ -20,11 +21,12 @@ const Land = () => {
     AOS.init({ duration: 1000, once: true });
   }, []);
   return (
-    <div>
+  <div>
       {/* pic */}
       <div
         data-aos="fade"
-        className="w-full h-fit bg-[url('./assets/piv(2).jpg')] bg-cover bg-center relative"
+        className="w-full h-fit bg-cover bg-center relative"
+        style={{ backgroundImage: `url(${backgroundImage})` }} // Use imported image
       >
         <div className="absolute inset-0 bg-black/20"></div>
 
