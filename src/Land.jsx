@@ -92,8 +92,7 @@ const Land = () => {
             Enjoy the most delicious dishes at Food2Go!
           </h4>
           <span className="w-[80%] md:w-[70%] text-[20px] md:text-3xl lg:text-[40px] leading-normal text-center md:text-left text-white mt-5 font-normal">
-            Fresh ingredients, fast delivery, and unforgettable flavors—satisfy
-            your cravings with just one click
+        All-in-One Restaurant Management System Food2GO makes it easy to manage menus, orders, and payments—all in one place.
           </span>
         </div>
 
