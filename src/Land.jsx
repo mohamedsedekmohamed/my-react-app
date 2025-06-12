@@ -344,10 +344,32 @@ Full smart solution for all restaurants needs             </p>
         </div>
       </div>
       <div className=" w-[90%]  bg-six h-0.5 my-5 mx-auto" />
-      <h3 className="text-[#383838] w-[95%] text-right font-medium text-[16px] my-5">
-        {" "}
-        ©2024 . All rights reserved
-      </h3>
+      <a href="https://elmanhag.com" className="w-[90%] flex justify-end  mx-auto">
+  <h3 className="text-black   font-medium text-[22px] my-5 flex items-center">
+<span> ©2025. All rights reserved  Food2Go power by {""}</span>  <div className="px-1 text-[40px] font-bold flex gap-1 relative">
+          <p className="text-[#D01025]">El</p>
+          <p>Manhag</p>
+          <i className="absolute right-0 bottom-10">
+        <svg width="42" height="37" viewBox="0 0 42 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4535_105)">
+<path d="M5.85165 7.87929L24.8026 5.53023L38.793 18.9925L19.199 22.2624L5.85165 7.87929Z" fill="#1C1C1C"/>
+<path d="M38.1637 19.3889C38.2527 19.127 38.1096 18.8415 37.8441 18.7513C37.5785 18.661 37.2911 18.8002 37.2021 19.0621L35.3179 24.6068C35.2289 24.8687 35.372 25.1542 35.6375 25.2444C35.903 25.3346 36.1905 25.1955 36.2795 24.9336L38.1637 19.3889Z" fill="#1C1C1C"/>
+<path d="M34.7745 27.8406C35.5814 28.1148 36.4547 27.692 36.7251 26.8962C36.9955 26.1004 36.5607 25.2331 35.7539 24.9589C34.947 24.6847 34.0737 25.1075 33.8033 25.9033C33.5329 26.6991 33.9677 27.5665 34.7745 27.8406Z" fill="#1C1C1C"/>
+<path d="M33.4971 28.749C33.6888 29.0254 33.9654 29.2337 34.2855 29.3425C34.6056 29.4512 34.9519 29.4547 35.2723 29.3523C34.5364 31.6798 33.8006 34.0069 33.0649 36.3334L30.8458 35.5793C31.7296 33.3025 32.6133 31.0258 33.4971 28.749Z" fill="#1C1C1C"/>
+<path d="M11.9512 14.4609L19.3388 22.2206L29.6038 20.4599L26.9386 28.3027C26.3654 28.6589 24.5126 24.66 19.1256 22.8481C13.6942 21.021 9.20015 23.8672 8.96609 23.2449L11.9512 14.4609Z" fill="#1C1C1C"/>
+</g>
+<defs>
+<clipPath id="clip0_4535_105">
+<rect width="35.3512" height="26.5066" fill="white" transform="translate(8.5293) rotate(18.7695)"/>
+</clipPath>
+</defs>
+</svg>
+
+          </i>
+        </div>        </h3>
+ 
+      </a>
+    
       
     </div>
   );
